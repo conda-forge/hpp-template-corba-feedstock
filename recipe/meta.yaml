@@ -10,7 +10,7 @@ source:
   sha256: 40593d697e285c5d2bd6c78ff0d05d7b7d788b9641595723687024f8547b95a3
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage(name|lower, max_pin='x.x') }}
@@ -23,7 +23,7 @@ requirements:
     - pkg-config
     - doxygen
   host:
-    - hpp-util
+    - hpp-util  {{ version }}
     - omniorb
     - omniorbpy
     - python
@@ -55,3 +55,4 @@ about:
 extra:
   recipe-maintainers:
     - ymontmarin
+    - jcarpent
