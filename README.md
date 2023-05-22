@@ -1,11 +1,11 @@
-About hpp-template-corba
-========================
+About hpp-template-corba-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hpp-template-corba-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/humanoid-path-planner/hpp-template-corba
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hpp-template-corba-feedstock/blob/main/LICENSE.txt)
 
 Summary: hpp-template-corba subpackage of Humanoid Path Planner suite
 
