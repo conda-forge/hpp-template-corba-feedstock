@@ -26,6 +26,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - hpp-util  {{ version }}
+    - libboost-devel
     - omniorb
     - omniorbpy
     - python
