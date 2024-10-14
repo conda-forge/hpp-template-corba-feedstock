@@ -1,5 +1,5 @@
 #!/bin/sh
-# Tell omniidl to use python back-end
+# Tell the module omniidl to use python back-end
 export PYTHONPATH=$PREFIX/lib/python$PY_VER/site-packages/:$PREFIX/lib/python$PY_VER/site-packages/omniidl_be/
 
 mkdir build
