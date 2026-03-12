@@ -1,5 +1,5 @@
 {% set name = "hpp-template-corba" %}
-{% set version = "6.1.0" %}
+{% set version = "7.0.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/humanoid-path-planner/{{ name }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 61ae5edfbc974f415b61925df0608fab62f7b69ee5a0658bef4cd66be0c8c03e
+  sha256: 18b43fa11bf6c1579c56d4aee7506d99a01fc06b71b68acce4d62de8111ca085
 
 build:
   number: 0
